@@ -12,51 +12,161 @@
     <!--FontAwesome-->  
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
 </head>
-<body>
+<body class="catalogo">
     <header>
-        <div class="conteiner">
-            <nav class="nav-main">
-                <img src="/img/logo.png" class="nav-logo" alt="logobeer">
-                    <ul class="nav-menu">
-                        <li>
-                            <a href="./cervezas.html">cerveza</a>
-                        </li>
-                    
-                        <li>
-                            <a href="./ventas.html">ventas</a>
-                        </li>
-                    
-                        <li>
-                            <a href="./contacto.html">contacto</a>
-                        </li>
+        <nav>
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+                <i class="fa-sharp fa-solid fa-bars"></i>
+            </label> 
+
+            <a href="/index.html" class="enlace">
+                <img src="/img/logo.png" class="logo" alt="logobeer">
+            </a>
+
+            <ul class="nav-menu">
+                <li>
+                    <a class="active" href="./home.html">nosotros</a>
+                </li>
+                <li>
+                    <a href="./cervezas.html">cerveza</a>
+                </li>
+            
+                <li>
+                    <a href="./ventas.html">ventas</a>
+                </li>
+            
+                <li>
+                    <a href="./contacto.html">contacto</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="row gy-3 my-3">
+                <div class="col-md-6 col-lg-3">
+                    <div class="card">
+                        <img src="/img/catalogo (5).jpg" class="card-img-top" alt="ipa">
+                        <div class="card-body">
+                            <p class="card-title">ipa</p>
+                            <p class="card-text">Se caracterizan por ser cervezas de alta graduación alcohólica (entre 5º y 7º), tener una mayor cantidad de lúpulo y por lo tanto un amargor y aroma intensos y cierta complejidad en el paladar</p>
+                        </div>
+                    </div>   
+                </div>     
+
+                <div class="col-md-6 col-lg-3">
+                    <div class="card">
+                        <img src="/img/catalogo (4).jpg" class="card-img-top" alt="honey">
+                        <div class="card-body">
+                            <p class="card-title">honey</p>
+                            <p class="card-text">De color dorado, cuerpo medio, con un intenso aroma y sabor a miel. Se caracteriza por ser muy fresca, agradable, de gusto dulce. Ideal para calmar la sed o acompañar ensaladas, platos de sabores neutros o afrutados<p>
+                        </div>
+                    </div>   
+                </div>     
+
+                <div class="col-md-6 col-lg-3">
+                    <div class="card">
+                        <img src="/img/catalogo (6).jpg" class="card-img-top" alt="stout">
+                        <div class="card-body">
+                            <p class="card-title">stout</p>
+                            <p class="card-text">Stout es su alta fermentación (Ale), así como el carácter tostado y las notas de sabor a chocolate negro y café, que son evidentes casi desde el primer sorbo. Características únicas en una cerveza llena de fuerza<p>
+                        </div>
+                    </div>   
+                </div>     
+
+                <div class="col-md-6 col-lg-3">
+                    <div class="card">
+                        <img src="/img/catalogo (7).jpg" class="card-img-top" alt="porter">
+                        <div class="card-body">
+                            <p class="card-title">porter</p>
+                            <p class="card-text">Cerveza cremosa que en aroma y sabor destaca por las notas de chocolate, caramelo y galleta. Una Porter es uno de los estilos de cerveza que muchos amantes de la cerveza conocemos por su historia<p>
+                        </div>
+                    </div>   
+                </div>     
+            </div>
+
+            <div class="row gy-3 my-3">
+                <div class="col-md-6 col-lg-3">
+                    <div class="card">
+                        <img src="/img/catalogo (5).jpg" class="card-img-top" alt="ipa">
+                        <div class="card-body">
+                            <p class="card-title">scotch</p>
+                            <p class="card-text">Una cerveza cuyo protagonismo se centra en la malta, generalmente un tanto caramelizada, quizá con un poco de Ésteres y, de forma ocasional, con un retrogusto a caramelo cremoso de mantequilla</p>
+                        </div>
+                    </div>   
+                </div>     
+
+                <div class="col-md-6 col-lg-3">
+                    <div class="card">
+                        <img src="/img/catalogo (4).jpg" class="card-img-top" alt="ipa">
+                        <div class="card-body">
+                            <p class="card-title">scottish</p>
+                            <p class="card-text">Un pronunciado carácter malteado, amargor leve y una terminación ligeramente dulce, contenido alcohólico medio, buen cuerpo y excelente sabor<p>
+                        </div>
+                    </div>   
+                </div>     
+
+                <div class="col-md-6 col-lg-3">
+                    <div class="card">
+                        <img src="/img/catalogo (6).jpg" class="card-img-top" alt="ipa">
+                        <div class="card-body">
+                            <p class="card-title">amber</p>
+                            <p class="card-text">Es un estilo de cerveza americano con un carácter malteado y tique de caramelo. Es una cerveza híbrida que se fermenta con levadura de Lager pero a temperaturas altas<p>
+                        </div>
+                    </div>   
+                </div>     
+
+                <div class="col-md-6 col-lg-3">
+                    <div class="card">
+                        <img src="/img/catalogo (7).jpg" class="card-img-top" alt="ipa">
+                        <div class="card-body">
+                            <p class="card-title">pilsen</p>
+                            <p class="card-text">Cerveza con un perfil limpio, color dorado, cuerpo liviano, con buena retención de espuma e importantes notas a maltas y lúpulos florales<p>
+                        </div>
+                    </div>   
+                </div>     
+            </div>
+        </div>
+    </main>
+ 
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col">
+                    <h4>housebeer</h4>
+                    <ul>
+                        <li><a href="#">Politica y privacidad</a></li>
+                        <li><a href="/pages/contacto.html">contacto</a></li>
                     </ul>
-            </nav>
-        </div>    
-    </header>  
-
-
-    <footer>
-        <ul class="btn">
-            <li>
-                <i class="fa-brands fa-instagram"></i>
-                <a href="https://www.instagram.com/">beer_house</a>
-            </li>
-            <li>
-                <i class="fa-brands fa-facebook"></i>
-                <a href="https://www.facebook.com/">beerhouse</a>
-            </li>
-            <li>
-                <a href="#">
-                <i class="fa-brands fa-whatsapp"></i>
-                </a>
-            </li>
-            <li>
-                <i class="fa-sharp fa-solid fa-copyright"></i>
-                <p>derechos reservados</p>
-            </li>          
-        </ul>
-    </footer>
-
-   <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>-->
+                </div>
+                <div class="footer-col">
+                    <h4>ayuda</h4>
+                    <ul>
+                        <li><a href="#">preguntas frecuentes</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>tienda</h4>
+                    <ul>
+                        <li><a href="/pages/cervezas.html">catalogo</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>seguinos</h4>
+                    <div class="social-links">
+                        <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://twitter.com/"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+                        <a href="https://ar.linkedin.com/"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+   </footer>
+    <!--Bootstrap-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>

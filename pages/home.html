@@ -12,25 +12,34 @@
 </head>
 <body>
     <header>
-        <div class="conteiner">
-            <nav class="nav-main">
-                <img src="/img/logo.png" class="nav-logo" alt="logobeer">
-                    <ul class="nav-menu">
-                        <li>
-                            <a href="./cervezas.html">cerveza</a>
-                        </li>
-                    
-                        <li>
-                            <a href="./ventas.html">ventas</a>
-                        </li>
-                    
-                        <li>
-                            <a href="./contacto.html">contacto</a>
-                        </li>
-                    </ul>
-            </nav>
-        </div>    
-    </header>  
+        <nav>
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+                <i class="fa-sharp fa-solid fa-bars"></i>
+            </label> 
+
+            <a href="/index.html" class="enlace">
+                <img src="/img/logo.png" class="logo" alt="logobeer">
+            </a>
+
+            <ul class="nav-menu">
+                <li>
+                    <a class="active" href="./home.html">nosotros</a>
+                </li>
+                <li>
+                    <a href="./cervezas.html">cerveza</a>
+                </li>
+            
+                <li>
+                    <a href="./ventas.html">ventas</a>
+                </li>
+            
+                <li>
+                    <a href="./contacto.html">contacto</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
     
     <main>
         <section id="pantalla-dividida">
@@ -48,26 +57,39 @@
         </section>           
     </main>   
          
-    <footer>
-        <ul class="btn">
-            <li>
-                <i class="fa-brands fa-instagram"></i>
-                <a href="https://www.instagram.com/">beer_house</a>
-            </li>
-            <li>
-                <i class="fa-brands fa-facebook"></i>
-                <a href="https://www.facebook.com/">beerhouse</a>
-            </li>
-            <li>
-                <a href="#">
-                <i class="fa-brands fa-whatsapp"></i>
-                </a>
-            </li>
-            <li>
-                <i class="fa-sharp fa-solid fa-copyright"></i>
-                <p>derechos reservados</p>
-            </li>          
-        </ul>
-    </footer>
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col">
+                    <h4>housebeer</h4>
+                    <ul>
+                        <li><a href="#">Politica y privacidad</a></li>
+                        <li><a href="/pages/contacto.html">contacto</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>ayuda</h4>
+                    <ul>
+                        <li><a href="#">preguntas frecuentes</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>tienda</h4>
+                    <ul>
+                        <li><a href="/pages/cervezas.html">catalogo</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>seguinos</h4>
+                    <div class="social-links">
+                        <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://twitter.com/"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+                        <a href="https://ar.linkedin.com/"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+   </footer>
 </body>
 </html>
