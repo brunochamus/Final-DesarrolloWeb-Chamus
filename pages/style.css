@@ -61,60 +61,61 @@ li a.active, li a:hover {
 }
 
 /*INDEX*/
-.pres {
-  background-image: url(img/encabezado1.jpg);
+.entrada {
+  background-image: url(/img/encabezado2.jpg);
+  height: 100vh;
   background-size: cover;
-  background-repeat: no-repeat;
-  height: 120vh;
+  background-position: center;
 }
 
-#home {
-  font-family: "Open Sans", sans-serif;
-  box-sizing: border-box;
-  color: black;
-  margin: 0;
+/*
+#home{
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+    color: black;
+    margin: 0;
 }
 
-.anuncio {
-  margin: auto;
-  transform: translateY(40%);
-  height: 450px;
-  width: 1000px;
-  border-radius: 20px;
-  font-size: 30px;
-  color: black;
-  background-color: rgba(128, 128, 128, 0.321);
-  text-align: center;
+.anuncio{
+    margin: auto;
+    transform:translateY(40%);
+    height: 450px;
+    width: 1000px;
+    border-radius: 20px;
+    font-size: 30px;
+    color: black;
+    background-color: rgba(128, 128, 128, 0.321);
+    text-align: center;
 }
 
-.anuncio h2 {
-  text-transform: uppercase;
-  padding: 20px;
+.anuncio h2{
+    text-transform: uppercase;
+    padding: 20px;
 }
 
-.anuncio p {
-  padding: 10px;
-  text-transform: uppercase;
+.anuncio p{
+    padding: 10px;
+    text-transform:uppercase ;
 }
 
-.anuncio h3 {
-  margin: 50px;
-  text-transform: uppercase;
+.anuncio h3{
+    margin: 50px;
+    text-transform: uppercase;
 }
 
-.anuncio a {
-  background: rgba(105, 104, 104, 0.611);
-  padding: 15px;
-  border-radius: 30px;
-  text-transform: uppercase;
-  text-decoration: none;
-  color: black;
-  transition: 0.7s;
+.anuncio a{
+    background: rgba(105, 104, 104, 0.611);
+    padding: 15px;
+    border-radius: 30px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+    transition: .7s;
 }
 
-.anuncio a:hover {
-  background: rgba(226, 164, 6, 0.659);
-  color: whitesmoke;
+.anuncio a:hover{
+    background: rgba(226, 164, 6, 0.659) ;
+    color: whitesmoke;
 }
 
 /*HOME*/
@@ -190,8 +191,7 @@ body {
 .card {
   height: 100%;
   transition: 0.5s;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   border: 2px solid rgb(145, 145, 145);
 }
 
@@ -238,8 +238,7 @@ body {
 .carrusel img {
   width: 0px;
   flex-grow: 1;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   opacity: 8;
   transition: 0.5s ease;
 }
