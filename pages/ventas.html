@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>VENTAS</title>
     <!--CSS-->
-    <link rel="stylesheet" href="../estilos/style.css">
+    <link rel="stylesheet" href="../pages/style.css">
     <!--FontAwesome-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
 </head>
@@ -19,7 +19,7 @@
             </label> 
 
             <a href="/index.html" class="enlace">
-                <img src="../img/logo.png" class="logo" alt="logobeer">
+                <img src="../img/logo-lupulo.webp" class="logo" alt="logobeer">
             </a>
 
             <ul class="nav-menu">
@@ -41,68 +41,40 @@
         </nav>
     </header>
 
-    <main>
-        <section id="arriba-mino">
-            <div class="mino">
-                <h1>ventas minoristas</h1>
-                <a href="#">juan</a>
-                <a href="#">agustina</a>
-                <p>para ventas minoristas te puedes comunicar con nuestros vendedores hacemos envios a domicilio</p>
-            </div>
-        </section>
-
-            <article id="abajo-mayo">
-                <div class="mayo">
-                    <h2>ventas mayoristas</h2>
-                    <a href="#">marcos</a>
-                    <a href="#">daiana</a>
-                    <p>para ventas minoristas te puedes comunicar con nuestros vendedores la compra minima es de $150.000 requerimos que cuentes con un comercio venta solo a mayores de 18 años si cumples con estos requisitos y quieres completar pedido a continuacion llena este formulario con tu informacion y su pedido nos comunicamos a la brevedad </p>
-                </div> 
-
-                <div class="formulario">
-                    <input type="text" name="nombre-apellido" value="Nombre y Apellido">
-                    <input type="text" name="comercio" value="Nombre de Comercio">
-                    <input type="text" name="localidad" value="Localidad">
-                    <input type="tel" name="telefono" value="Telefono">
-                    <input type="email" name="email" value="Email">
-                    <input type="text" name="texto" value="Arma tu pedido aqui">
+    <main class="ventas">
+        <div class="minorista">
+            <div class="card" style="width: 18rem;">
+                <img src="../img/vendedores (2).jpg" class="card-img-top" alt="venta-minorista">
+                <div class="card-body">
+                    <h5 class="card-title">daiana</h5>
+                    <p class="card-text">Para venta minorista comunicate con nuestros vendedores. Los horarios de atencion de Daiana son de 14:00 a 22:00.</p>
+                    <a href="#" class="btn btn-primary">ir al chat</a>
                 </div>
-            </article>      
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="../img/vendedores (3).jpg" class="card-img-top" alt="venta-mayorista">
+                <div class="card-body">
+                    <h5 class="card-title">ariel</h5>
+                    <p class="card-text">Para venta mayorista comunicate con nuestros vendedores. Los horarios de atencion de Ariel son de 8:00 a 13:00.</p>
+                    <a href="#" class="btn btn-primary">ir al chat</a>
+                </div>
+            </div>
+        </div>   
     </main>      
         
-    <footer class="footer">
-        <div class="container">
-            <div class="row">
-                <div class="footer-col">
-                    <h4>housebeer</h4>
-                    <ul>
-                        <li><a href="#">Politica y privacidad</a></li>
-                        <li><a href="/pages/contacto.html">contacto</a></li>
-                    </ul>
-                </div>
-                <div class="footer-col">
-                    <h4>ayuda</h4>
-                    <ul>
-                        <li><a href="#">preguntas frecuentes</a></li>
-                    </ul>
-                </div>
-                <div class="footer-col">
-                    <h4>tienda</h4>
-                    <ul>
-                        <li><a href="/pages/cervezas.html">catalogo</a></li>
-                    </ul>
-                </div>
-                <div class="footer-col">
-                    <h4>seguinos</h4>
-                    <div class="social-links">
-                        <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
-                        <a href="https://twitter.com/"><i class="fab fa-twitter"></i></a>
-                        <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
-                        <a href="https://ar.linkedin.com/"><i class="fab fa-linkedin-in"></i></a>
-                    </div>
-                </div>
+    <footer>
+        <div class="foot">
+            <a href="https://es-la.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://twitter.com/?lang=es"><i class="fa-brands fa-twitter"></i></a>
+            <a href="https://ar.linkedin.com/"><i class="fa-brands fa-linkedin"></i></a>
+
+            <div class="copy">
+                <a href="#"><i class="fa-solid fa-copyright"></i></a>
+                <h2>Bruno Chamús</h2>
             </div>
         </div>
     </footer>
+
 </body>
 </html>

@@ -8,7 +8,7 @@
     <!--Bootstrap-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <!--CSS-->
-    <link rel="stylesheet" href="../estilos/style.css">
+    <link rel="stylesheet" href="../pages/style.css">
     <!--FontAwesome-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
 </head>
@@ -21,7 +21,7 @@
             </label> 
 
             <a href="/index.html" class="enlace">
-                <img src="../img/logo.png" class="logo" alt="logobeer">
+                <img src="../img/logo-lupulo.webp" class="logo" alt="logobeer">
             </a>
 
             <ul class="nav-menu">
@@ -45,55 +45,74 @@
 
     <main class="cont-contac">
 
-        <section class="carrusel">
-            <img src="../img/carrusel (1).jpg" alt="fabrica">
-            <img src="../img/carrusel (2).jpg" alt="fabrica">
-            <img src="../img/carrusel (3).jpg" alt="fabrica">
-        </section>
-
-
         <div class="contacto">
-                <h2>contacto</h2>
-                <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
-                <h3>encontranos en</h3>
+            <h2>contacto</h2>
+            <a href="#"><img src="../img/wsp-logo.png" alt="whatsapp"></a>
+            <a href="#"><img src="../img/ig-logo.png" alt="instagram"></a>   
+            <a href="#"><img src="../img/in-logo.png" alt="linkedin"></a>
+            <a href="#"><img src="../img/gmail-logo.png" alt="gmail"></a>
         </div>  
+
+        <div class="enviar-mapa">
+            <p>¿donde los encontramos?</p>
+            <a href="#maps"><i class="fa-solid fa-circle-down"></i></a>
+        </div>
+
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="../img/carrusel (1).jpg" class="d-block w-100" alt="barril-aluminio">
+                    <div class="carousel-caption d-none d-md-block">
+                    <h5>nuestra fabrica</h5>
+                    <p>Barriles de aluminio listos para ser distribuidos</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="../img/carrusel (2).jpg" class="d-block w-100" alt="silos">
+                    <div class="carousel-caption d-none d-md-block">
+                    <h5>nuestra fabrica</h5>
+                    <p>Silos y mezcla de la magia para lograr nuestra querida cerveza</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="../img/carrusel (3).jpg" class="d-block w-100" alt="barril-roble">
+                    <div class="carousel-caption d-none d-md-block">
+                    <h5>nuestra fabrica</h5>
+                    <p>Barriles de roble en el cual descansa la creacion</p>
+                    </div>
+                </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+                </button>
+            </div>
         
-        <div class="maps">
+        <div id="maps">
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d423283.4355631048!2d-118.69192667708981!3d34.02073049525834!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2c75ddc27da13%3A0xe22fdf6f254608f4!2sLos%20%C3%81ngeles%2C%20California%2C%20EE.%20UU.!5e0!3m2!1ses!2sar!4v1675194450261!5m2!1ses!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <h3>los esperamos para conocer nuestra fabrica con un sensacional recorrido.</h3>
         </div>
     </main>  
     
-    <footer class="footer">
-        <div class="container">
-            <div class="row">
-                <div class="footer-col">
-                    <h4>housebeer</h4>
-                    <ul>
-                        <li><a href="#">Politica y privacidad</a></li>
-                        <li><a href="/pages/contacto.html">contacto</a></li>
-                    </ul>
-                </div>
-                <div class="footer-col">
-                    <h4>ayuda</h4>
-                    <ul>
-                        <li><a href="#">preguntas frecuentes</a></li>
-                    </ul>
-                </div>
-                <div class="footer-col">
-                    <h4>tienda</h4>
-                    <ul>
-                        <li><a href="/pages/cervezas.html">catalogo</a></li>
-                    </ul>
-                </div>
-                <div class="footer-col">
-                    <h4>seguinos</h4>
-                    <div class="social-links">
-                        <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
-                        <a href="https://twitter.com/"><i class="fab fa-twitter"></i></a>
-                        <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
-                        <a href="https://ar.linkedin.com/"><i class="fab fa-linkedin-in"></i></a>
-                    </div>
-                </div>
+    <footer>
+        <div class="foot">
+            <a href="https://es-la.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://twitter.com/?lang=es"><i class="fa-brands fa-twitter"></i></a>
+            <a href="https://ar.linkedin.com/"><i class="fa-brands fa-linkedin"></i></a>
+
+            <div class="copy">
+                <a href="#"><i class="fa-solid fa-copyright"></i></a>
+                <h2>Bruno Chamús</h2>
             </div>
         </div>
     </footer>
