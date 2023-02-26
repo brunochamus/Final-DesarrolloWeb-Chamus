@@ -1,0 +1,407 @@
+@import 'MediaQueries.scss';
+
+/*HEADER RESPONSIVE*/
+@media only screen and (max-width: 950px) {
+
+    .enlace{
+        padding-left: 10px;
+    }
+
+    nav ul li a {
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width: 891px) {
+
+    nav .checkbtn{
+        display: block;
+    }
+
+    ul{
+        position: fixed;
+        width: 100%;
+        height: 50%;
+        background-color: $color4;
+        top: 80px;
+        left: 100%;
+        text-align: center;
+        transition: all .7s;
+        z-index: 1;
+        }
+
+    nav ul li{
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+    
+    nav ul li a{
+        font-size: 20px;
+    }
+
+    li a:hover, li a.active{
+    background: gray;
+    }
+
+    #check:checked ~ul{
+        left: 0;
+    }
+}
+
+/*INDEX*/
+@media screen and (min-width: 655px) and (max-width: 1245px) {
+    .entrada{
+
+        .anuncio{
+            height: 80%;
+            width: 80%;
+        }
+        
+    }
+
+/*CONTACTO RESPONSIVE*/
+    .cont-contac{
+        
+        .contacto{
+
+                img{
+                    height: 40px;
+                    margin: 35px;
+                    
+                }
+        }
+}
+}
+/*HOME*/
+@media screen and (min-width: 200px) and (max-width: 1057px) {
+    #pantalla-dividida{
+        .der{
+            width: 70%;
+        }
+
+
+        .izq{
+            width: 30%;
+        }
+    }
+
+/*FOOTER*/
+.foot{
+
+    a{
+        margin: 30px;
+    }
+}
+}
+
+@media screen and (min-width: 200px) and (max-width: 655px) {
+    .entrada{
+
+        .anuncio{
+            height: 70%;
+            width: 80%;
+        }
+            h2{
+                font-size: 30px;
+            }
+
+            p, h3, a{
+                font-size: 20px;
+            }
+        
+    }
+
+    /*FOOTER*/
+.foot{
+    height: 200px;
+
+    a{
+        margin: 20px;
+    }
+}
+}
+
+@media screen and (min-width: 200px) and (max-width: 417px) {
+    .entrada{
+
+        .anuncio{
+            height: 80%;
+            width: 80%;
+        }
+            h2{
+                font-size: 30px;
+            }
+
+            p, h3, a{
+                font-size: 20px;
+            }
+        
+    }
+}
+
+@media screen and (min-width: 200px) and (max-width: 369px){
+    #pantalla-dividida{
+        .der{
+            width: 100%;
+            background-image: url(../img/home.jpg);
+
+            h1, h2, h3{
+                font-size: 30px;
+                margin-top: 5px;
+                background-color: white;
+                border-radius: 5%;
+            }
+
+            p{
+                font-size: 15px;
+                margin: 10px;
+                background-color: rgba(255, 255, 255, 0.764);
+                border-radius: 5%;
+            }
+        }
+
+        .izq{
+            background-image: none;
+            width: 0;
+        }
+    } 
+}
+
+/*CERVEZA*/
+@media only screen and (max-width: 600px) {
+    .clasicas{
+        height: 40%;
+        width: 100%;
+        text-align: center;
+    }
+    
+    .card:hover{
+        transform: none;
+        translate: none;
+        background-color: white;
+    }
+}
+
+/*CONTACTO RESPONSIVE*/
+
+@media screen and (min-width: 761px) and (max-width: 847px) {
+    .cont-contac{
+        
+        .contacto{
+
+                img{
+                    height: 40px;
+                    margin: 55px;
+                    margin-top: 10px;
+                    
+                }
+        }
+}
+
+#carouselExampleCaptions{
+
+    .carousel-caption{
+
+        h5{
+            font-size: 40px;
+        }
+    }
+}
+}
+
+@media screen and (min-width: 361px) and (max-width: 761px) {
+    .cont-contac{
+        
+        .contacto{
+
+                img{
+                    height: 40px;
+                    margin: 45px;
+                    margin-top: 10px;
+                    
+                }
+        }
+
+        .enviar-mapa{
+            height: 200px;
+
+            p{
+                font-size: 30px;
+            }
+
+            i{
+                font-size: 30px;
+            }
+        }
+    }        
+        #pantalla-dividida{
+            .der{
+                width: 80%;
+
+                p{
+                    margin: 10px;
+                }
+            }
+    
+    
+            .izq{
+                width: 20%;
+            }
+        }    
+
+}
+
+@media screen and (min-width: 158px) and (max-width: 661px) {
+    .cont-contac{
+        
+        .contacto{
+
+                img{
+                    height: 40px;
+                    margin: 35px;
+                    margin-top: 10px;
+                    
+                }
+        }
+
+    #maps{
+        
+        iframe{
+            margin-left: 10%;
+            margin: 20px;
+            height: 300px;
+            width: 300px;
+        }
+
+        h3{
+            font-size: 20px;
+        }
+    }
+}
+/*VENTAS*/
+.ventas{
+height: 200vh;
+    .minorista{
+            flex-wrap: wrap;
+
+            .card{
+                margin-top: 100px;
+                height: 100%;
+                border: none;
+
+                img{
+                    height: 200px;
+                }
+            }
+        }
+    }    
+
+}
+
+@media screen and (min-width: 361px) and (max-width: 561px) {
+    .cont-contac{
+        
+        .contacto{
+            width: 70%;
+                img{
+                    height: 40px;
+                    margin: 50px;
+                    margin-top: 10px;
+                    
+                }
+        }
+
+    #maps{
+        
+        iframe{
+            margin-left: 10%;
+            margin: 10px;
+            height: 250px;
+            width: 250px;
+        }
+
+        h3{
+            font-size: 20px;
+        }
+    }
+}
+
+#pantalla-dividida{
+    .der{
+        width: 90%;
+
+        h1, h2, h3{
+            font-size: 40px;
+            margin-top: 10px;
+        }
+
+        p{
+            font-size: 20px;
+            margin: 10px;
+        }
+    }
+
+    .izq{
+        width: 10%;
+    }
+} 
+}
+
+@media screen and (min-width: 155px) and (max-width: 476px) {
+    .cont-contac{
+        
+        .contacto{
+            width: 70%;
+                img{
+                    height: 40px;
+                    margin: 50px;
+                    margin-top: 10px;
+                    
+                }
+        }
+
+    #maps{
+        
+        iframe{
+            margin-left: 10%;
+            margin: 10px;
+            height: 250px;
+            width: 200px;
+        }
+
+        h3{
+            font-size: 17px;
+        }
+    }
+}
+
+@media screen and (min-width: 155px) and (max-width: 406px) {
+    .cont-contac{
+        
+        .contacto{
+            width: 70%;
+                img{
+                    height: 40px;
+                    margin: 30px;
+                    margin-top: 10px;
+                    
+                }
+        }
+
+    #maps{
+        
+        iframe{
+            margin-left: 10%;
+            margin: 10px;
+            height: 250px;
+            width: 200px;
+        }
+
+        h3{
+            font-size: 15px;
+        }
+    }
+}
+}
+}

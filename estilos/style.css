@@ -369,7 +369,7 @@ body .izq {
   }
 }
 @media only screen and (max-width: 891px) {
-  .checkbtn {
+  nav .checkbtn {
     display: block;
   }
   ul {
